@@ -1,0 +1,309 @@
+/* Список стилей, общий для всех страниц */
+body
+{
+    background-color: #fadbc8;
+}
+
+/* Блок города */
+
+#city-block
+{
+    width: 400px;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #e0b0ff;
+    border: 1px solid #ba55d3;
+    border-radius: 35px;
+}
+
+#city-block .title
+{
+    font-size: 16pt;
+    font-weight: bold;
+    color: #7e0059;
+}
+
+#city-block .text-bold
+{
+    font-size: 14pt;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#city-block .text-small
+{
+    font-size: 10pt;
+    color: black;
+    padding-left: 14px;
+}
+
+#city-block .text-standart
+{
+    font-size: 12pt;
+    color: black;
+    padding-top: 5px;
+    padding-left: 12px;
+}
+
+/* Блок списка добавленных городов */
+#list-block
+{
+    width: 700px;
+    padding: 10px;
+    margin-top: 35px;
+}
+
+#list-block .city-list-item
+{
+    background-color: #f0ffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #80461b;
+    border-radius: 25px;
+    float: left;
+}
+
+#list-block .city-list-item .city-mini-info
+{
+    background-color: #aaf0d1;
+    color: #af2b1e;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 3px;
+    padding-right: 0px;
+    margin: 0px;
+    margin-left: 10px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+#list-block .city-list-item .manager-button
+{
+    background-color: #fcd975;
+    color: #c34d0a;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+    border-radius: 0px 25px 25px 0px;
+}
+
+#list-block .city-list-item .manager-button:hover {
+    border: 2px solid #294172;
+    padding-left: 6px;
+}
+
+
+#city-list-add
+{
+    background-color: #f0ffff;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #80461b;
+    border-radius: 25px;
+    float: left;
+}
+
+
+#city-list-add:hover {
+    border: 2px solid #294172;
+}
+
+#back-to-main
+{
+    background-color: #f0ffff;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #80461b;
+    border-radius: 25px 0px 0px 0px;
+    float: left;
+}
+
+#back-to-main:hover {
+    border: 2px solid #294172;
+}
+
+.goto-span
+{
+    cursor: pointer;
+}
+
+/* Блок прогнозов */
+.title-block
+{
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#forecast-block
+{
+    width: 500px;
+    height: 380px;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #e28090;
+    border: 1px solid #ba55d3;
+    border-radius: 35px;
+    float: left;
+}
+
+.day-info
+{
+    width: 90px;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #8c4852;
+    border: 1px solid #ba55d3;
+    border-radius: 35px;
+    float: left;
+}
+
+/* Блок истории */
+#history-block
+{
+    border: 1px solid black;
+    background-color: #003153;
+    border-collapse: collapse;
+}
+
+#history-block td
+{
+    border: 1px solid black;
+    text-align: center;
+    color: #d0f0c0;
+}
+
+#history-block #history-block-date
+{
+    font-weight: bold;
+    width: 100px;
+}
+
+#history-block #history-block-temperature
+{
+    font-weight: bold;
+    width: 150px;
+}
+
+/* Иконки ветра одолжил с сайта pogoda.ngs.ru */
+.icon-direction
+{
+    width: 16px;
+    height: 16px;
+    padding: 0px;
+    margin-right: 8px;
+    background: url(http://pogoda.ngs.ru/static/img/Public/icons/icons-sprite.png) no-repeat;
+    float: left;
+}
+
+.icon-direction-south
+{
+    background-position: 0 0;
+}
+
+.icon-direction-south_west
+{
+    background-position: -112px 0;
+}
+
+.icon-direction-south_east
+{
+    background-position: -64px 0;
+}
+
+.icon-direction-north
+{
+    background-position: -32px 0;
+}
+
+.icon-direction-north_west
+{
+    background-position: -96px 0;
+}
+
+.icon-direction-north_east
+{
+    background-position: -80px 0;
+}
+
+.icon-direction-west
+{
+    background-position: -48px 0;
+}
+
+.icon-direction-east
+{
+    background-position: -16px 0;
+}
+
+/* Диалоги */
+.dialog
+{
+    position: fixed;
+    background-color: #1fcecb;
+    text-align: center;
+    margin: 10px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    top: 200px;
+    left: 100px;
+    display: none;
+}
+
+#dialog_select
+{
+    width: 360px;
+}
+
+#dialog_delete
+{
+    width: 280px;
+}
+
+#dialog_edit
+{
+    width: 200px;
+}
+
+#dialog_add
+{
+    width: 200px;
+}
+
+#dialog_alert
+{
+    background-color: red;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+}
+
+#dialog_alert .message_text
+{
+    color: white;
+    font-weight: bold;
+}
+
+.shadow
+{
+    display: none;
+}
